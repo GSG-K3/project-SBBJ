@@ -1,33 +1,53 @@
-body {
+/* * {box-sizing: border-box;} */
+* {
     margin: 0;
-    display: flex;
+    padding:0;
 }
-ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-li{
-    padding: 10px;
-    float: left;
-    color: white;
-
-}
-a{
-    color: white;
-}
-
 .sec-nav{
-
-    background-color:blue;
-    color : white;
-    
+    display: flex;
+    background-color: blue;
+    color:white;
+    min-width:650px;
 }
-.hire-button{
+.back-img{ 
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
 
+
+.hire-button{
+    
     background-color:white;
     border-radius: 10px;
     border: 1px solid white;
     color: blue;
-    
+    margin: 10px;
+    padding: 10px;
+    flex-direction: right;
+    position: absolute;
+    right: 6px;
+    align-self: flex-start;
+}
+.div-pos{
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    align-items: stretch;
+}
+h3{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+a{
+    color: white;
+    display: block;
+    margin: 10px 20px;
+    padding: 10px;
+    justify-content: center;
+
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
 }
