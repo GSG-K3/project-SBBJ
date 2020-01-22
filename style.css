@@ -4,17 +4,18 @@
     padding:0;
 }
 .sec-nav{
+    flex-wrap: wrap;
     display: flex;
     background-color: blue;
     color:white;
     min-width:650px;
+   
 }
-.back-img{ 
-    display: block;
-    position: absolute;
-    overflow: hidden;
-    width: 100%;
-}
+ .menu-header, .toggle a { 
+
+    font-size: 20px;
+
+ }
 
 
 .hire-button{
@@ -51,3 +52,35 @@ a{
     list-style-type: none;
     position: relative;
 }
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+   
+
+}
+
+.back-img{ 
+        display: block;
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        margin: auto;
+        max-height: 100vh;
+    
+    }
+.writing{
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.box{
+    display: grid;
+}
+    
