@@ -1,0 +1,20 @@
+.info{
+    background-color: aqua;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+.infoform{
+    display: flex;
+    justify-content: center;
+
+}
+.sendbtn{
+    color: aqua;
+
+}
+.note{
+    width: 400px;
+    height: 300px;
+}
