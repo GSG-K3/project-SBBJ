@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: flex;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    padding: 10px;
+    float: left;
+    color: white;
+
+}
+a{
+    color: white;
+}
+
+.sec-nav{
+
+    background-color:blue;
+    color : white;
+    
+}
+.hire-button{
+
+    background-color:white;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: blue;
+    
+}
