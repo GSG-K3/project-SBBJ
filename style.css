@@ -1,6 +1,7 @@
 body {
     margin: 0;
     display: flex;
+    display: inline;
 }
 ul{
     list-style: none;
@@ -11,23 +12,43 @@ li{
     padding: 10px;
     float: left;
     color: white;
-
 }
 a{
     color: white;
+}
+#hire-li{
+    justify-content: end;
 }
 
 .sec-nav{
 
     background-color:blue;
     color : white;
+    display: flex;
+    text-align: left;
     
 }
 .hire-button{
 
+    flex-direction: right;
     background-color:white;
     border-radius: 10px;
     border: 1px solid white;
     color: blue;
+    position: absolute;
+    right: 1%;
     
 }
+display-flex { 
+    justify-content: right;
+    display: flex;
+}
+
+.li-pos{
+    justify-content: right;
+    position: absolute;
+    
+
+}
+
+
