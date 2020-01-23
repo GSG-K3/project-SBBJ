@@ -1,20 +1,49 @@
+
+
+
 .info{
-    background-color: aqua;
-    font-size: large;
+    background-color: rgb(92, 141, 141);
+    font-size: 48px;
+    font-weight: bolder;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
 }
-.infoform{
+.Information{
+    font-size: large;
     display: flex;
     justify-content: center;
+   flex-direction: column;
+   align-items: center;
+    
+}
+.uname{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
 
 }
+.uemail{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
 .sendbtn{
-    color: aqua;
+    color: rgb(13, 66, 66);
+    width: 100px;
+    height: 40px;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 10px;
 
 }
 .note{
+    border-radius: 10px;
     width: 400px;
-    height: 300px;
+    height: 90px;
+    border-style: solid;
+
 }
+@media not (all and (monochrome)) { 
+
+ }
