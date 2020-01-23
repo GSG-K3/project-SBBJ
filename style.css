@@ -5,24 +5,26 @@
 }
 
 .sec-nav{
+    /* flex-wrap: wrap; */
     display: flex;
     background-color: blue;
     color:white;
-    min-width:650px;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 400px;
+
 }
 
-.hire-button{  
-    display: flex;
-    background-color:white;
+
+
+.hire-button{
+  background-color: white;
     border-radius: 10px;
     border: 1px solid white;
     color: blue;
-    margin: 10px;
-    padding: 10px;
     flex-direction: right;
-    position: absolute;
-    right: 6px;
-    align-self: flex-start;
+    left: 150%;
+
 }
 
 .div-pos{
@@ -89,3 +91,69 @@ a{
 p{
     font-size: x-large;
 }
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+   
+
+}
+
+.back-img{ 
+        display: block;
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        margin: auto;
+        max-height: 100vh;
+    
+    }
+.writing{
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.div-pos{
+    justify-content: center;
+    align-items: center;
+}
+
+ @media screen and (min-width:370px) and ( max-width: 600px) {
+    .sec-nav a:not(:first-child) {display: none;}
+    .sec-nav a.icon {
+      float:right;
+      display: block;
+    }
+  } 
+  
+   @media screen  and (max-width: 1000px) {
+    .sec-nav.responsive {position: relative;}
+    .sec-nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+     .sec-nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }  .test .div-pos{
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+ 
+} 
+
+
+
+
+
+
+
