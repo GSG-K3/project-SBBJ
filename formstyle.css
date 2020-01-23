@@ -10,40 +10,45 @@
     justify-content: center;
 }
 .information{
-    font-size: large;
+    /* font-size: large; */
     display: flex;
     justify-content: center;
    flex-direction: column;
    align-items: center;
     
 }
-.uname{
+.inputclass{
+    font-size: x-small;
     width: 400px;
     height: 30px;
     border-radius: 10px;
+    border-style: solid;
+    border-width: .5px;
+}
 
-}
-.uemail{
-    width: 400px;
-    height: 30px;
-    border-radius: 10px;
-}
+
 .sendbtn{
-    color: rgb(13, 66, 66);
+   
+    color: black;
     width: 100px;
     height: 40px;
     font-size: x-large;
     font-weight: bold;
     border-radius: 10px;
+    border-style: outset;
+    background-color:rgb(92, 141, 141);
 
 }
 .note{
     border-radius: 10px;
-    width: 400px;
+    width: 30%;
     height: 90px;
     border-style: solid;
+    border-width: .5px;
 
 }
+
+
 .media {
     display: flex;
     flex-wrap: wrap;
@@ -52,12 +57,10 @@
 .info{
     font-size: larger;
 }
-.uname{
+.inputclass{
     width: 150px;
 }
-.uemail{
-    width: 150px;
-}
+
 .note{
     width: 150px;
     height: 100px;
