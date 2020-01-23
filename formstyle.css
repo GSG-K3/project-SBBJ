@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
 }
-.Information{
+.information{
     font-size: large;
     display: flex;
     justify-content: center;
@@ -44,6 +44,28 @@
     border-style: solid;
 
 }
-@media not (all and (monochrome)) { 
-
- }
+.media {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (max-device-width: 480px) {
+.info{
+    font-size: larger;
+}
+.uname{
+    width: 150px;
+}
+.uemail{
+    width: 150px;
+}
+.note{
+    width: 150px;
+    height: 100px;
+}
+.sendbtn{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    font-size: small;
+}
+}
