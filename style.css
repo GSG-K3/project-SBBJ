@@ -3,6 +3,7 @@
     margin: 0;
     padding:0;
 }
+
 .sec-nav{
     /* flex-wrap: wrap; */
     display: flex;
@@ -13,12 +14,7 @@
     min-width: 400px;
 
 }
- .menu-header, .toggle a { 
 
-    font-size: 20px; 
-    justify-content: flex-end;
-
- }
 
 
 .hire-button{
@@ -31,16 +27,18 @@
 
 }
 
-
 .div-pos{
     justify-content: space-between;
     display: flex;
     color: white;
     align-items: stretch;
 }
-h3{
+
+h1{
     margin-left: 10px;
     margin-top: 15px;
+    font-size: xxx-large;
+    opacity: 1;
 }
 a{
     color: white;
@@ -48,10 +46,50 @@ a{
     margin: 10px 20px;
     padding: 10px;
     justify-content: center;
-
     text-decoration: none;
     list-style-type: none;
     position: relative;
+}
+
+.description_div{
+    display:flex;
+    background-color: #E5E5E5;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(204, 204, 204, 0.5);
+    border-radius: 10px;
+}
+.head_sec{
+    background-repeat: no-repeat;
+    display:flex;
+    background-image: url('http://www.all4well.org/wp-content/uploads/2018/07/development-team.jpg');
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100% ;
+    height: 520px;
+    background-size: 100% 100%;
+
+
+
+}
+
+.head_p{
+    font-size: xxx-large;
+}
+
+.about_sec{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-left: 50px;
+    width: 80%;
+
+}
+
+p{
+    font-size: x-large;
 }
 .container{
     position: relative;
