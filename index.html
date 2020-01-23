@@ -2,35 +2,52 @@
 <html>
     <head> <title>Development team </title>
       <link rel="stylesheet" href="style.css">
-
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
+      
 
     </head>
     <body>
-      <div class="box"> 
+      <!-- <div class="box">  -->
 
 
       
 
-       <section class="sec-nav">
-            <h3 class="menu-header">Development Team</h3>
+       <section class="sec-nav" id="myTopnav">
+          <div class="test">
+        <h3 class="menu-header">Development Team</h3>
             <div class="div-pos">
             <a href="#aboutUs">About Us</a >
             <a href="#team">Team</a>            
             <a href="#contact">Contact</a>
-            </div>
+            </div></div>
             <button class="hire-button">Hire Devloper Team </button>
             <a class="toggle" href="#"><i class="fas fa-bars"></i></a>
-          
-
-       </section>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+            </section>
+       <!-- </section>
         <section class="container">
           <img class="back-img" src="http://www.all4well.org/wp-content/uploads/2018/07/development-team.jpg" >
           <div class="writing">Tfdgfdg </div>
-        </section>
+
+        </section> -->
+
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "sec-nav") {
+              x.className += " responsive";
+            } else {
+              x.className = "sec-nav";
+            }
+          }
+          </script>
+  
   
         
           
-</div>
+<!-- </div> -->
 
 
     </body>
@@ -39,3 +56,4 @@
 
 
 </html>
+
