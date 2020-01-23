@@ -1,29 +1,35 @@
 /* * {box-sizing: border-box;} */
-* {
+/* * {
     margin: 0;
     padding:0;
+} */
+.a-color{
+    color:white;
 }
-
 .sec-nav{
     /* flex-wrap: wrap; */
     display: flex;
-    background-color: blue;
+    margin: 0;
+    padding:0;
+    background-color:rgb(92, 141, 141);
     color:white;
     justify-content: space-between;
     align-items: center;
     min-width: 400px;
 
 }
-
+h3{
+    padding-left:10px;
+}
 
 
 .hire-button{
   background-color: white;
     border-radius: 10px;
     border: 1px solid white;
-    color: blue;
+    color:rgb(92, 141, 141);
     flex-direction: right;
-    left: 150%;
+    left: 126%;
 
 }
 
@@ -34,14 +40,14 @@
     align-items: stretch;
 }
 
-h1{
+.H11{
     margin-left: 10px;
     margin-top: 15px;
     font-size: xxx-large;
     opacity: 1;
 }
 a{
-    color: white;
+    color:coral;
     display: block;
     margin: 10px 20px;
     padding: 10px;
@@ -59,6 +65,8 @@ a{
     flex-direction: column;
     background: rgba(204, 204, 204, 0.5);
     border-radius: 10px;
+    margin: 0;
+    padding:0;
 }
 .head_sec{
     background-repeat: no-repeat;
@@ -71,8 +79,6 @@ a{
     height: 520px;
     background-size: 100% 100%;
 
-
-
 }
 
 .head_p{
@@ -82,15 +88,16 @@ a{
 .about_sec{
     display: flex;
     flex-direction: column;
-    padding: 40px;
-    margin-left: 50px;
+    padding: 0px;
+    margin-left: 0px;
     width: 80%;
+    background-color: #E5E5E5;
 
 }
 
-p{
+/* .par{
     font-size: x-large;
-}
+} */
 .container{
     position: relative;
     text-align: center;
@@ -132,7 +139,7 @@ p{
     }
   } 
   
-   @media screen  and (max-width: 1000px) {
+   @media screen  and (max-width: 480px) {
     .sec-nav.responsive {position: relative;}
     .sec-nav.responsive .icon {
       position: absolute;
@@ -149,7 +156,48 @@ p{
         flex-direction: column;
     }
  
-} 
+}
+
+.Teambody{
+    background-color: #E5E5E5;
+    margin-top: 20px;
+    margin-left: 40px;
+    /* margin-top: 20px; */
+    
+    }
+    
+    .TeamDiv{
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: row;
+    margin-right: 15%;
+    }
+    
+     h4{
+        display: flex;
+        justify-content: center;
+        margin-right: 3% ;
+        margin-left: 7%; 
+    } 
+    
+     .contact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 40px;
+           
+    } 
+    
+    ul{
+        list-style-type: none;
+        font-size: 57px;
+        display: flex;
+        justify-content: space-around; 
+        margin:0px;
+        padding: 7px;
+         }  
+  
+    
 
 
 
