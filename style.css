@@ -3,42 +3,42 @@
     margin: 0;
     padding:0;
 }
+
 .sec-nav{
+    /* flex-wrap: wrap; */
     display: flex;
     background-color: blue;
     color:white;
-    min-width:650px;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 400px;
+
 }
-.back-img{ 
-    display: block;
-    position: absolute;
-    overflow: hidden;
-    width: 100%;
-}
+
 
 
 .hire-button{
-    
-    background-color:white;
+  background-color: white;
     border-radius: 10px;
     border: 1px solid white;
     color: blue;
-    margin: 10px;
-    padding: 10px;
     flex-direction: right;
-    position: absolute;
-    right: 6px;
-    align-self: flex-start;
+    left: 150%;
+
 }
+
 .div-pos{
     justify-content: space-between;
     display: flex;
     color: white;
     align-items: stretch;
 }
-h3{
+
+h1{
     margin-left: 10px;
     margin-top: 15px;
+    font-size: xxx-large;
+    opacity: 1;
 }
 a{
     color: white;
@@ -46,8 +46,114 @@ a{
     margin: 10px 20px;
     padding: 10px;
     justify-content: center;
-
     text-decoration: none;
     list-style-type: none;
     position: relative;
 }
+
+.description_div{
+    display:flex;
+    background-color: #E5E5E5;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(204, 204, 204, 0.5);
+    border-radius: 10px;
+}
+.head_sec{
+    background-repeat: no-repeat;
+    display:flex;
+    background-image: url('http://www.all4well.org/wp-content/uploads/2018/07/development-team.jpg');
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100% ;
+    height: 520px;
+    background-size: 100% 100%;
+
+
+
+}
+
+.head_p{
+    font-size: xxx-large;
+}
+
+.about_sec{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-left: 50px;
+    width: 80%;
+
+}
+
+p{
+    font-size: x-large;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+   
+
+}
+
+.back-img{ 
+        display: block;
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        margin: auto;
+        max-height: 100vh;
+    
+    }
+.writing{
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.div-pos{
+    justify-content: center;
+    align-items: center;
+}
+
+ @media screen and (min-width:370px) and ( max-width: 600px) {
+    .sec-nav a:not(:first-child) {display: none;}
+    .sec-nav a.icon {
+      float:right;
+      display: block;
+    }
+  } 
+  
+   @media screen  and (max-width: 1000px) {
+    .sec-nav.responsive {position: relative;}
+    .sec-nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+     .sec-nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }  .test .div-pos{
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+ 
+} 
+
+
+
+
+
+
+
