@@ -5,6 +5,8 @@
 .sec-nav{
     /* flex-wrap: wrap; */
     display: flex;
+    position: sticky;
+    top: 0;
     margin: 0;
     padding:0;
     background-color:rgb(92, 141, 141);
@@ -24,7 +26,8 @@ h3{
     border-radius: 10px;
     border: 1px solid white;
     color:rgb(92, 141, 141);
-    /* left: 126%; */
+    flex-direction: right;
+    left: 144%;
 
 }
 
@@ -38,8 +41,8 @@ h3{
 .H11{
     margin-left: 10px;
     margin-top: 15px;
-    font-size: xxx-large;
     opacity: 1;
+    font-size:4vw;
 }
 a{
     color:coral;
@@ -77,7 +80,8 @@ a{
 }
 
 .head_p{
-    font-size: xxx-large;
+    font-size: 3vw;
+
 }
 
 .about_sec{
@@ -146,12 +150,13 @@ a{
         flex-wrap: wrap; 
     }
 }
+.contact-us{
+    font-size: 2.5vw;
+}
 
 .Teambody{
     background-color: #E5E5E5;
-    margin-top: 20px;
-    margin-left: 40px;
-    
+    padding: 20px;
     
     }
     
