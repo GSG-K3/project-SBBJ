@@ -19,13 +19,12 @@
 }
 .inputclass{
     font-size: x-small;
-    width: 400px;
+    width: 30%;
     height: 30px;
     border-radius: 10px;
-    border-style: solid;
+    border-style: 1px solid black;
     border-width: .5px;
 }
-
 
 .sendbtn{
    
@@ -37,13 +36,12 @@
     border-radius: 10px;
     border-style: outset;
     background-color:rgb(92, 141, 141);
-
 }
 .note{
     border-radius: 10px;
     width: 30%;
     height: 90px;
-    border-style: solid;
+    border-style: 1px solid black;
     border-width: .5px;
 
 }
