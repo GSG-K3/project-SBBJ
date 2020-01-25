@@ -14,6 +14,7 @@
     justify-content: space-between;
     align-items: center;
     min-width: 400px;
+    
 
 }
 h3{
@@ -139,7 +140,7 @@ a{
         align-items: flex-start;
     }
     
-    }
+    
     .TeamDiv{
         display: flex;
         flex-wrap: wrap;
