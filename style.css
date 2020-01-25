@@ -1,8 +1,4 @@
-/* * {box-sizing: border-box;} */
-/* * {
-    margin: 0;
-    padding:0;
-} */
+
 .a-color{
     color:white;
 }
@@ -28,8 +24,7 @@ h3{
     border-radius: 10px;
     border: 1px solid white;
     color:rgb(92, 141, 141);
-    flex-direction: right;
-    left: 126%;
+    /* left: 126%; */
 
 }
 
@@ -95,9 +90,6 @@ a{
 
 }
 
-/* .par{
-    font-size: x-large;
-} */
 .container{
     position: relative;
     text-align: center;
@@ -131,43 +123,39 @@ a{
     align-items: center;
 }
 
- @media screen and (min-width:370px) and ( max-width: 600px) {
-    .sec-nav a:not(:first-child) {display: none;}
-    .sec-nav a.icon {
-      float:right;
-      display: block;
-    }
-  } 
   
-   @media screen  and (max-width: 480px) {
-    .sec-nav.responsive {position: relative;}
-    .sec-nav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-     .sec-nav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }  .test .div-pos{
-        align-items: center;
+   @media screen  and (max-width: 600px) {
+   
+       .div-pos{
+
+         font-size:small; 
+        display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: flex-start;
     }
- 
+    
+    }
+    .TeamDiv{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap; 
+    }
 }
 
 .Teambody{
     background-color: #E5E5E5;
     margin-top: 20px;
     margin-left: 40px;
-    /* margin-top: 20px; */
+    
     
     }
     
     .TeamDiv{
-    /* margin-top: 20px; */
     display: flex;
     flex-direction: row;
     margin-right: 15%;
