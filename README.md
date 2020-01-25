@@ -15,6 +15,7 @@ banan and sahar took the nav bar and the conent of the main page.<br>
 bayan took the form page, <br>
 nojood took the about team and contact us, <br>
 and we larend how to use git and github. <br>
+![page sketch](img2.jpg) <br>
 ![page sketch](img1.jpg) <br>
 https://gsg-k3.github.io/project-SBBJ/
 
